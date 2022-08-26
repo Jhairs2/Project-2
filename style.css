@@ -79,6 +79,7 @@
     width: 200px;
     display: flex;
     justify-content: space-around;
+    gap: 25px;
   }
   .box {
     display: flex;
