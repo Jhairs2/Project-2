@@ -80,6 +80,7 @@ body {
 }
 
 .container-four {
+   
     color: white;
     flex: 20%;
     display: flex;
@@ -90,7 +91,8 @@ body {
 .box-container-two {
     width: 800px;
     height: 100px;
-    background-color: dodgerblue;
+    background-color:#3882F6;
+    ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,7 +116,7 @@ img {
 #button-1 {
 
     width: 100px;
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
     border-radius: 5px;
     border: none;
@@ -122,9 +124,10 @@ img {
     margin-top: 8px;
 }
 #button-2 {
+    color: white;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: turquoise;
+    background-color: #3882F6;
     width: 100px;
     padding: 5px;
 }
