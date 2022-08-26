@@ -1,124 +1,151 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    height:100vh; 
+  }
+  
+  /* Fixing Header content */
+  .header {
+    color: white;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    font-family: "Times New Roman", "sans-serif";
-}
-
-.header {
-    background-color: #1F2937;
-    color: white;
+    background-color:  #1F2937;
+    height: 400px;
+    font-size: 20px;
+  }
+  
+  .header-logo-container {
+    padding: 16px 12px;
     display: flex;
-    justify-content: space-around;
-    padding: 12px;
-}
-
-.footer {
-    color: white;
-    background-color: #1F2937;
-    display: flex;
-   
-    justify-content: center;
-}
-
-.container {
-    background-color: #1F2937;
-    color: white;
-    flex: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-}
-
-.container-two {
-    background-color: white;
-    color: black;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0px auto;
+  }
+  
+  .header-logo {
+    font-weight: bold;
+  }
+  
+  .links {
     
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 18px;
-    flex-shrink: 0;
-}
-
-
-.box-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    max-width: 300px;
-    padding: 24px;
-}
-
-.container-three {
-    font-size: 20px;
-    flex: 1;
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#author {
-    margin-top: 12px;
-    margin-left: 300px;
-}
-
-.container-four {
-   
+    gap: 50px;
+  }
+  
+  a {
     color: white;
-    flex: 20%;
+    text-decoration: none;
+  }
+  
+  
+  /* Fixing container 1 contwent */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+  }
+  
+  .sign {
+   width: 30%;
+  
+  }
+  
+  .container p {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  
+  .container img {
+    width: 400px;
+    height: auto;
+  }
+  
+  
+  /* Fixing container two content */
+  
+  .container-two {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 70%;
+    
+  }
+  
+  .box-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  
+  .box img {
+    width: 200px;
+    border: 2px solid red;
+  }
+  
+  /* Fixing container-three */
+  
+  .container-three {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .container-three p {
+    font-size: 24px;  
+  }
+  
+  #author {
+    margin-left: 350px;
+  }
+  
+  /* Fixing container-four */
+  .container-four {  
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box-container-two {
-    width: 800px;
+    height: 250px;
+  }
+  
+  .box-container-two {
+    width: 600px;
     height: 100px;
+    border-radius: 5px;
     background-color:#3882F6;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.sign {
-    max-width: 300px;
-}
-
-.sign-two {
+  }
+  
+  
+  /* Fixing footer */
+  
+  .footer {
+    color: white;
+    height: 75px;
+    background-color: #1F2937;
     display: flex;
-    flex-direction: column;
-}
-
-
-
-.container img {
-    display: flex;
-    height: 250px;
-    padding: 12px;
-    margin-right: 24px;
-}
-
-#button-1 {
-
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Fix buttons */
+  
+  #button-1 {
+  
     width: 100px;
     background-color: #3882F6;
     color: white;
@@ -126,29 +153,18 @@ body {
     border: none;
     padding: 5px;
     margin-top: 8px;
-}
-#button-2 {
+  }
+  #button-2 {
     color: white;
     border: 2px solid white;
     border-radius: 5px;
     background-color: #3882F6;
     width: 100px;
     padding: 5px;
-}
-
-#button-1:hover, 
-#button-2:hover {
+  }
+  
+  #button-1:hover, 
+  #button-2:hover {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 25%);
-}
-
-ul {
-   display: flex;
-   gap: 16px;
-   list-style: none;
-}
-
-a { 
-    
-    text-decoration: none;
-}
+    background-color: rgba(255, 255, 255, 75%);
+  }
