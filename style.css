@@ -20,6 +20,13 @@ body {
     padding: 12px;
 }
 
+.footer {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     background-color: #1F2937;
     color: white;
@@ -42,7 +49,6 @@ body {
 
 
 .box-container {
-    border: 2px solid cyan;
     flex: 1;
     display: flex;
     align-items: center;
@@ -121,6 +127,12 @@ img {
     background-color: turquoise;
     width: 100px;
     padding: 5px;
+}
+
+#button-1:hover, 
+#button-2:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 25%);
 }
 
 ul {
