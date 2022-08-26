@@ -5,7 +5,7 @@
 }
 
 body {
-    height:100vh;
+    height:100vh; 
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -24,6 +24,7 @@ body {
     color: white;
     background-color: #1F2937;
     display: flex;
+   
     justify-content: center;
 }
 
@@ -40,11 +41,12 @@ body {
 .container-two {
     background-color: white;
     color: black;
-    flex: 20%; 
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 18px;
+    flex-shrink: 0;
 }
 
 
@@ -66,7 +68,7 @@ body {
 
 .container-three {
     font-size: 20px;
-    flex: 20%;
+    flex: 1;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -92,7 +94,6 @@ body {
     width: 800px;
     height: 100px;
     background-color:#3882F6;
-    ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,8 +110,11 @@ body {
 
 
 
-img {
-    margin-right: 20px;
+.container img {
+    display: flex;
+    height: 250px;
+    padding: 12px;
+    margin-right: 24px;
 }
 
 #button-1 {
