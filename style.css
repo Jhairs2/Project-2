@@ -49,6 +49,14 @@ body {
     justify-content: center;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    padding: 24px;
+}
 
 .container-three {
     font-size: 20px;
@@ -66,19 +74,32 @@ body {
 }
 
 .container-four {
+    color: white;
     flex: 20%;
-}
-.box {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    max-width: 300px;
-    padding: 24px;
 }
+
+.box-container-two {
+    width: 800px;
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .sign {
     max-width: 300px;
 }
+
+.sign-two {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 img {
     margin-right: 20px;
@@ -93,6 +114,13 @@ img {
     border: none;
     padding: 5px;
     margin-top: 8px;
+}
+#button-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: turquoise;
+    width: 100px;
+    padding: 5px;
 }
 
 ul {
