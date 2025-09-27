@@ -20,7 +20,7 @@
 }
 
 .section {
-  max-width: 70%;
+  max-width: 100%;
   padding: 1rem;
   margin: 0 auto;
 }
@@ -79,10 +79,15 @@ img {
   width: 100%;
 }
 
+.container.info {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
 .section.info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 0 3rem;
 }
 
 .info-header {
@@ -106,4 +111,33 @@ img {
 .info-card > p {
   text-align: center;
 }
+
+.container.quote {
+  background-color: #E5E7EB ;
+  padding: 4rem;
+}
+
+.section.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 4rem;
+
+}
+
+.quote-message { 
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.quote-owner {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  padding: 0 1rem;
+}
+
+
 
