@@ -13,76 +13,84 @@
     />
   </head>
 
-  <body>
-    <div class="container header">
-      <header class="section header">
-        <section class="header-nav-section">
-          <p class="header-logo">Header Logo</p>
-          <nav class="header-nav-menu">
-            <a href="" class="header-link">header link one</a>
-            <a href="" class="header-link">header link two</a>
-            <a href="" class="header-link">header link three</a>
-          </nav>
-        </section>
-        <section class="header-info-section">
-          <div class="header-info">
-            <h2 class="header-intro">This website is awesome</h2>
-            <p class="header-intro-subtext">
-              This website has some subtext that goes here under the main title.
-              It's a smaller font and the color is lower contrast
-            </p>
-            <button type="button" class="sign-up-btn header">Sign up</button>
-          </div>
-          <img src="./images/light-effect.jpg" alt="something pic" />
-        </section>
-      </header>
+  <body class="page-layout">
+    <header class="page-layout--header">
+      <nav class="section header-nav-menu">
+        <p class="header-logo">Header Logo</p>
+        <div class="header-nav-links">
+          <a href="" class="header-link">header link one</a>
+          <a href="" class="header-link">header link two</a>
+          <a href="" class="header-link">header link three</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="page-layout--greeting">
+      <section class="section greeting-section">
+        <div class="greeting-intro-text">
+          <h2 class="greeting-intro">This website is awesome</h2>
+          <p class="greeting-intro-subtext">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button type="button" class="sign-up-btn header">Sign up</button>
+        </div>
+        <div class="greeting-img-container">
+          <img
+            class="greeting-img"
+            src="./images/light-effect.jpg"
+            alt="bright light effect"
+          />
+        </div>
+      </section>
     </div>
-    <div class="container info">
+    <div class="page-layout--info">
       <section class="section info">
-        <h2 class="info-header">Some Random Information</h2>
+        <h2 class="info-header">Some Random Information.</h2>
         <div class="info-cards-container">
           <div class="info-card">
             <img
               src="./images/autumn_desert_fall_hill_landscape_mountain_nature_597815.webp"
               alt="mountain landscape"
             />
-            <p>This is some subtext under an illustration or pic</p>
+            <p>This is some subtext under an illustration or image</p>
           </div>
           <div class="info-card">
             <img
               src="./images/autumn_desert_fall_hill_landscape_mountain_nature_597815.webp"
               alt="mountain landscape"
             />
-            <p>This is some subtext under an illustration or pic</p>
+            <p>This is some subtext under an illustration or image</p>
           </div>
           <div class="info-card">
             <img
               src="./images/autumn_desert_fall_hill_landscape_mountain_nature_597815.webp"
               alt="mountain landscape"
             />
-            <p>This is some subtext under an illustration or pic</p>
+            <p>This is some subtext under an illustration or image</p>
           </div>
           <div class="info-card">
             <img
               src="./images/autumn_desert_fall_hill_landscape_mountain_nature_597815.webp"
               alt="mountain landscape"
             />
-            <p>This is some subtext under an illustration or pic</p>
+            <p>This is some subtext under an illustration or image</p>
           </div>
         </div>
       </section>
     </div>
-    <div class="container quote">
+    <div class="page-layout--quote">
       <section class="section quote">
-        <p class="quote-message">
+        <blockquote class="quote-message">
           This is an inspiring quote, or a testomonial from a customer. Maybe
-          it's filling space , or maybe people will actually ready it. Who
+          it's just filling space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
-        </p>
-        <p class="quote-owner">Thor, God of Thunder</p>
+        </blockquote>
+        <cite class="quote-owner">Thor, God of Thunder</cite>
       </section>
     </div>
-    <div class="container action">
+
+    <div class="page-layout--action">
       <section class="section action">
         <div class="action-text">
           <p class="action-header">Call to action! It's time!!</p>
@@ -93,9 +101,10 @@
         <button type="button" class="sign-up-btn action">Sign up</button>
       </section>
     </div>
-
-    <footer class="container footer">
-      <p>Copyright © The Odin Project 2025</p>
+    <footer class="page-layout--footer">
+      <div class="section footer">
+        <p>Copyright © The Odin Project 2025</p>
+      </div>
     </footer>
   </body>
 </html>
